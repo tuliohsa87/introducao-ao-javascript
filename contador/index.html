@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Contador</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Contador</h1>
+        <p>Clieque nos botões para alterar o valor.</p>
+        <div class="counter">
+            <button name="subtrair" onclick="decrement()">-</button>
+            <span id="currentNumber">0</span>
+            <button name="adicionar" onclick="increment()">+</button>
+        </div>
+    </div>
+    
+    <hr>
+
+    <div class="container">
+        <h1>Contador Um</h1>
+        <p>Este contador utiliza o método addEventListener</p>
+        <div class="counter">
+            <button id="subtrairUm">-</button>
+            <span id="currentNumberUm">0</span>
+            <button id="adicionarUm">+</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h1>Contador Dois</h1>
+        <p>Este contador desabilita o botão de decremento quando valor for igual a "0" zero e desabilita o botão de incremento quando o valor for igual a "10" dez.</p>
+        <div class="counter">
+            <button id="subtrairDois">-</button>
+            <span id="currentNumberDois">0</span>
+            <button id="adicionarDois">+</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h1>Contador Três</h1>
+        <p>Este contador exibe valor em vermelhor quando for negativo.</p>
+        <div class="counter">
+            <button id="subtrairTres">-</button>
+            <span id="currentNumberTres">0</span>
+            <button id="adicionarTres">+</button>
+        </div>
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+    
+</body>
+</html>
