@@ -10,7 +10,9 @@ Caso você queira ir além, aqui estão algumas dicas de coisas para tentar:
 2. Crie condicionais que desabilitam o botão de incremento ou decrementar quando ==count== chegar a um determinado valor (ex.: 0 <= count =< 10).
 3. Mude a cor do texto em ==CURRENT_NUMBER== para vermelho quando o número for negativo.
 
+Resultado obtidos das dicas:
 
+![](assets/img/tela.png)
 
 ## Bons estudos!
 
